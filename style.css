@@ -6,12 +6,31 @@
 
 .Header {
     width: 100%;
-    height: 100px;
-    background-color: rgba(128, 128, 128, 0.63);
+    height: 109px;
+    background-color: rgb(240, 240, 240);
+    box-shadow: 0 0 8px 0 black;
 }
 
 .LogoHeader {
     width: 180px;
     height: auto;
     margin: 5px 0 0 10px;
+}
+
+.CategoriasProdutos {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.LinkCategoriaProdutos {
+    text-decoration: none;
+    color: rgba(56, 56, 211, 0.979);
+    font-weight: bold;
+    font-size: 21px;
+    padding: 0 0 0 15px;
+}
+
+.LinkCategoriaProdutos:hover {
+    bottom: 0 0 2px 0 black;
 }
