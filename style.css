@@ -28,9 +28,10 @@
     color: rgba(56, 56, 211, 0.979);
     font-weight: bold;
     font-size: 21px;
-    padding: 0 0 0 15px;
+    margin: 0 0 0 15px;
 }
 
 .LinkCategoriaProdutos:hover {
-    bottom: 0 0 2px 0 black;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.788);
+    font-size: 23px;
 }
